@@ -21,7 +21,7 @@ const Navbar = () => {
                             <a href="" target="_blank" alt="FIRST.Org at Youtube" rel="noopener noreferrer"><FontAwesomeIcon icon={faYoutube} /></a>
                             <a href="/" alt="FIRST.Org Podcasts" ><FontAwesomeIcon icon={faMicrophoneAlt} /></a>
                         </div>
-                            <Link className="button signin" href="/dashboard/verticalNews">Dashboard</Link>
+                            <Link className="button signin" to="/dashboard/verticalNews">Dashboard</Link>
                         </div>
 
                         <div className="first-logo">
