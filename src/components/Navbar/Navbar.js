@@ -4,6 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faGithub, faLinkedinIn, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { faMicrophoneAlt, faSortDown, faCaretRight, faBars } from '@fortawesome/free-solid-svg-icons';
 import logo from '../../images/first-org.svg';
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
     return (
         <header><div id="header" data-studio-s="header">
@@ -19,7 +21,7 @@ const Navbar = () => {
                             <a href="" target="_blank" alt="FIRST.Org at Youtube" rel="noopener noreferrer"><FontAwesomeIcon icon={faYoutube} /></a>
                             <a href="/" alt="FIRST.Org Podcasts" ><FontAwesomeIcon icon={faMicrophoneAlt} /></a>
                         </div>
-                            <a className="button signin" href="/dashboard/verticalNews">Dashboard</a>
+                            <Link className="button signin" href="/dashboard/verticalNews">Dashboard</Link>
                         </div>
 
                         <div className="first-logo">
